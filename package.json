@@ -1,0 +1,30 @@
+{
+  "name": "redux_tutorial",
+  "version": "1.0.0",
+  "description": "Work through redux tutorials",
+  "repository": "https://github.com/emmarcus/redux_tutorial",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "live-server",
+    "build": "webpack --watch"
+  },
+  "dependencies": {
+    "babel": "^6.23.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "babel": {
+    "presets": [
+      "react"
+    ]
+  }
+}
